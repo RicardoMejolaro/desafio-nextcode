@@ -37,11 +37,19 @@
 
 ---
 
-<h2>Visualização - API no Postman:<h2>
+<h2>Visualização localhost - API no Postman:<h2>
 
 ---
 
-<img src="public/pictures/api-gif" alt="Gif Postman" />
+<img src="public/pictures/demonstracao-localhost.gif" alt="Gif Postman" />
+  
+---
+
+<h2>Visualização Produção Heroku - API no Postman:<h2>
+
+---
+
+<img src="public/pictures/demonstracao-producao.gif" alt="Gif Postman" />
   
 ---
 
@@ -87,7 +95,7 @@ $ git clone https://github.com/RicardoMejolaro/desafio-nextcode.git
 $ No seu editor, procurar a pasta que recebeu o clone do projeto, selecionar e abrir.
 
 #Abrir seu terminal de comando preferido via editor de código ou fora do editor, após acessar a pasta (no passo acima), acessar a pasta do projeto onde abrirá a branch master do repositório, com o comando:  
-$ cd desafionextcode
+$ cd desafio-nextcode
 
 #Ao acessar o diretório acima mencionado, rodar o comando:
 $ npm install ou yarn install (para instalar as dependências necessárias)
@@ -95,7 +103,7 @@ $ npm install ou yarn install (para instalar as dependências necessárias)
 #Rodar o projeto com o comando:
 $ npm start ou yarn start
 
-#Pode testar a rota http://localhost:3333/picture com o método get que contém uma saudação e 
+#Pode testar a rota http://localhost:3000/picture com o método get que contém uma saudação e 
 #pode verificar que está funcionando e para testar o método post utilizar a mesma URL
 #e seguir o exemplo do GIF acima
 Agora é só testar no Postman!
